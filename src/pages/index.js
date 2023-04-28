@@ -13,7 +13,7 @@ export default function MainLandingPage() {
 
 						<Link href='/blog'>To Blog Page</Link>
 
-						<Link href='/projects'>To Project Page</Link>
+						<Link href='/projects'>To Projects Page</Link>
 
 					</nav>
 
