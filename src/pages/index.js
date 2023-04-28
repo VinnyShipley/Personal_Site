@@ -9,18 +9,14 @@ export default function MainLandingPage() {
 						Vinny Shipley Personal Website
 					</h1>
 				</div>
-				<div>
-					<nav class='flex justify-center'>
-						<ul className='bg-gray-300' class='inline-flex'>
-							<li>
-								<Link href='/blog'>To Blog Page</Link>
-							</li>
-							<li>
-								<Link href='/projects'>To Project Page</Link>
-							</li>
-						</ul>
+					<nav class='flex justify-center space-x-20 '>
+
+						<Link href='/blog'>To Blog Page</Link>
+
+						<Link href='/projects'>To Project Page</Link>
+
 					</nav>
-				</div>
+
 			</main>
 		</>
 	);
