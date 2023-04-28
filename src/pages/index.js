@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function BlogLandingPage() {
+export default function MainLandingPage() {
 	return (
 		<>
 			<main className='bg-gray-500 mt-45 py-10'>
@@ -9,11 +9,18 @@ export default function BlogLandingPage() {
 						Vinny Shipley Personal Website
 					</h1>
 				</div>
-				<h2 className='bg-gray-300 m-50 py-10'>
-					<Link href='/blog'>To Blog Page</Link>
-					<br></br>
-					<Link href='/projects'>To Project Page</Link>
-				</h2>
+				<div>
+					<nav class='flex justify-center'>
+						<ul className='bg-gray-300' class='inline-flex'>
+							<li>
+								<Link href='/blog'>To Blog Page</Link>
+							</li>
+							<li>
+								<Link href='/projects'>To Project Page</Link>
+							</li>
+						</ul>
+					</nav>
+				</div>
 			</main>
 		</>
 	);
