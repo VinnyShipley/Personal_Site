@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function MainLandingPage() {
+function MainLandingPage() {
 	return (
 		<>
 			<main className='bg-gray-500 mt-45 py-10'>
@@ -21,3 +21,5 @@ export default function MainLandingPage() {
 		</>
 	);
 }
+
+export default MainLandingPage;
