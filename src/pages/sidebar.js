@@ -3,16 +3,21 @@ import { TbBrandBlogger } from "react-icons/tb";
 
 const SideBar = () => {
 	return (
-  <div className="fixed top-0 left-0 h-screen w-16 flex flex-col bg-amber-900 text-amber-100 shadow-lg">
-    <SideBarIcon icon={<GoOctoface size="28" />} />
-    <SideBarIcon icon={<TbBrandBlogger size="28" />} />
+  <div className="fixed top-0 left-0 h-screen w-16 flex flex-col bg-secondary text-amber-100 shadow-xl">
+    <SideBarIcon icon={<GoOctoface size="28"/>}  text="My Github" />
+    <SideBarIcon icon={<TbBrandBlogger size="28"/>} text="My Blog" />
   </div>
   );
 };
 
-const SideBarIcon =({ icon }) => (
-  <div className="sidebar-icon">
+const SideBarIcon =({ icon, text  }) => (
+  <div className="sidebar-icon group">
     {icon}
+
+    <span class="sidebar-tooltip group-hover:scale-100">
+      {text}
+    </span>
+
   </div>
 );
 
