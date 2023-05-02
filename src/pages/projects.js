@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function ProjectsLandingPage() {
+const ProjectsLandingPage = () => {
   return (
     <>
       <h1 className="text-4xl text-center text-bold bg-gray-300 m-50 py-10">Projects Landing Page</h1>
@@ -11,3 +11,5 @@ export default function ProjectsLandingPage() {
     </>
   );
 }
+
+export default ProjectsLandingPage;
