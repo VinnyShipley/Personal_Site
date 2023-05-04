@@ -9,13 +9,14 @@ function MainLandingPage() {
 						Vinny Shipley Personal Website
 					</h1>
 				</div>
-					<nav className='flex justify-center space-x-20 '>
+					<nav className='flex justify-center space-x-20 focus:bg-black'>
 
 						<Link href='/blog'>To Blog Page</Link>
 
 						<Link href='/projects'>To Projects Page</Link>
 
 					</nav>
+				
 
 			</main>
 		</>
