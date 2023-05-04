@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
   return (
     <div>
     <Header />
-    <div className='scale-0' id='sidebar'>
+    <div className='' id='sidebar'>
     <SideBar />
     </div>
     <div id='menuButton' onClick={ menuButtonClickHandler}>
@@ -21,6 +21,10 @@ export default function App({ Component, pageProps }) {
 const menuButtonClickHandler = () => {
   let menu = document.getElementById('menuButtonButton');
   console.log(menu);
-  menu.style.backgroundColor = 'red';
+  let sidebar = document.getElementById("sidebar");
+  console.log(sidebar)
+
+  menu.style.scale = 0;
+  sidebar.style.scale = 100;
   
 }
