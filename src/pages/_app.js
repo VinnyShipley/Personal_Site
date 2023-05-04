@@ -19,8 +19,8 @@ export default function App({ Component, pageProps }) {
 }
 
 const menuButtonClickHandler = () => {
-  let menu = document.getElementById('menuButton');
-  console.log(menu.style.color);
-  menu.style.textDecorationColor = 'black';
+  let menu = document.getElementById('menuButtonButton');
+  console.log(menu);
+  menu.style.backgroundColor = 'red';
   
 }
