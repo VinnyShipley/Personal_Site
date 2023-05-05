@@ -1,6 +1,5 @@
 import '@/styles/globals.css'
 import SideBar from './sidebar'
-import MainLandingPage from '.';
 import MenuButton from './menubutton';
 import Header from './header'
 
@@ -8,7 +7,7 @@ export default function App({ Component, pageProps }) {
   return (
     <div>
     <Header />
-    <div className='' id='sidebar'>
+    <div id='sidebar' className='scale-0' >
     <SideBar />
     </div>
     <div id='menuButton' onClick={ menuButtonClickHandler}>

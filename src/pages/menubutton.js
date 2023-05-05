@@ -13,7 +13,7 @@ const MenuBarIcon =({ icon, text  }) => (
   <div id="menuButtonButton" className="menu-button group">
     {icon}
 
-    <span class="menu-icon group-hover:scale-100">
+    <span className="menu-icon group-hover:scale-100">
       {text}
     </span>
 
