@@ -3,7 +3,7 @@ import { TfiMenu } from "react-icons/tfi";;
 
 const MenuButton = () => {
   return (
-    <div  className="fixed top-0 left-0 h-screen w-16 flex flex-col focus:bg-black text-amber-100">
+    <div  className="fixed top-0 left-0 w-16 flex flex-col text-amber-100">
     <MenuBarIcon icon={<TfiMenu size="28"/>}  text="Menu" />
   </div>
   );
