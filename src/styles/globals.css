@@ -18,7 +18,7 @@
 
 @layer components {
   .menu-button {
-    @apply relative inline flex items-center justify-center
+    @apply relative inline flex items-center ml-3
     h-12 w-12 my-2 mx-auto bg-gray-800 text-blue-500 hover:text-green-500 active:bg-slate-200 rounded-xl hover:rounded-3xl duration-200
   }
 

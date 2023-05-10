@@ -1,22 +1,30 @@
+import React from 'react';
 import '@/styles/globals.css';
 import SideBar from './sidebar';
 import MenuButton from './menubutton';
 
-export default function App({ Component, pageProps }) {
-	class MenuButton extends Component {
-		render() {
-			return (
-				<div>
+let showMenu = false;
+
+const handleMenuClick = (e) => {
+  e.preventDefault(e);
+  console.log('hello')
+}
+
+class App extends React.Component {
+	render() {
+		return (
+			<div>
+				{ showMenu &&
 					<div>
-						<MenuButton onClick={menuButtonClickHandler()} />
+						<SideBar />
 					</div>
-					<div>{menuShown && <SideBar />}</div>
+				}
+				<div>
+					<MenuButton onClick={ handleMenuClick }/>
 				</div>
-			);
-		}
+			</div>
+		);
 	}
 }
 
-const menuButtonClickHandler = () => {
-	this.setState({});
-};
+export default App;
