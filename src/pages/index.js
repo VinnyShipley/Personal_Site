@@ -5,7 +5,7 @@ function MainLandingPage() {
 		<>
 			<main className='bg-secondary mt-45 py-10'>
 				<div>
-					<h1 className='bg-primary text-4xl text-center py-10'>
+					<h1 className='bg-primary text-4xl text-center py-10 ml-16'>
 						Vinny Shipley Personal Website
 					</h1>
 				</div>
