@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const BlogLandingPage = () => {
+export default function BlogLandingPage() {
   return (
     <>
       <h1 className="text-4xl text-center text-bold bg-gray-300 m-50 py-10">Blog Landing Page</h1>
@@ -12,4 +12,3 @@ const BlogLandingPage = () => {
   );
 }
 
-export default BlogLandingPage;

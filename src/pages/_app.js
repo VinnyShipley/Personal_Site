@@ -8,19 +8,8 @@ import MainLandingPage from '.';
 
 
 
-class App extends React.Component {
-	render() {
-		return (
-			<div>
-					<div>
-						<MainLandingPage />
-						<SideBar />
-					</div>
-
-			
-			</div>
-		);
-	}
+const MainSite = ({ Component, pageProps }) => {
+	return <Component {...pageProps} />
 }
 
-export default App;
+export default MainSite

@@ -1,21 +1,16 @@
 import Link from 'next/link';
+import Header from './header';
+import SideBar from './sidebar';
 
 function MainLandingPage() {
 	return (
 		<>
-			<main className='bg-secondary mt-45 py-10'>
+			<main className=''>
 				<div>
-					<h1 className='bg-primary text-4xl text-center py-10 ml-16'>
-						Vinny Shipley Personal Website
-					</h1>
+					<Header />
+					<SideBar />
 				</div>
-					<nav className='flex justify-center space-x-20 focus:bg-black'>
-
-						<Link href='/blog'>To Blog Page</Link>
-
-						<Link href='/projects'>To Projects Page</Link>
-
-					</nav>
+					
 				
 
 			</main>
