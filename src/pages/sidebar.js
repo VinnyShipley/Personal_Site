@@ -2,6 +2,7 @@ import { GoOctoface } from 'react-icons/go';
 import { TbBrandBlogger } from 'react-icons/tb';
 import Link from 'next/link';
 import { HiHome } from "react-icons/hi"; 
+import { RiLinkedinBoxFill } from "react-icons/ri";
 
 const SideBar = () => {
 	return (
@@ -12,6 +13,7 @@ const SideBar = () => {
       <SideBarIcon icon={<HiHome size="28" />} text='Homepage' href="/"/>
 			<SideBarIcon icon={<GoOctoface size='28' />} text='My Projects' href="/projects"/>
 			<SideBarIcon icon={<TbBrandBlogger size='28' />} text='My Blog' href="/blog"/>
+			<SideBarIcon icon={ <RiLinkedinBoxFill size='28'/>} text='My Linkedin' href="https://www.linkedin.com/in/vinny-shipley/" />
 		</div>
 	);
 };
