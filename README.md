@@ -6,7 +6,7 @@ Thanks for reading my README. I feel that you reading this file really makes thi
 
 ## URL
 
-Insert URL to the website here when it is deployed
+https://personal-site-ten-pink.vercel.app/
 
 ## Author
 
