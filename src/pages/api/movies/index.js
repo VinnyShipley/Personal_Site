@@ -13,7 +13,7 @@ const handler = async (req, res) => {
   }
 
   res.setHeader('Allow', ['GET'])
-  res.status(425).end(`Method ${req.method} is not allowed.`)
+  res.status(405).end(`Method ${req.method} is not allowed.`)
 }
 
 export default handler
