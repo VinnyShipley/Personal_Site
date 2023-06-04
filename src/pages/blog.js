@@ -29,3 +29,10 @@ export async function getStaticProps() {
     },
   };
 }
+
+
+const createPostComponent = () => {
+	return (
+		<p>List of posts will live in here and get created in here</p>
+	)
+}
