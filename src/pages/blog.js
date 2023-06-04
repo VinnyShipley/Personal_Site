@@ -36,11 +36,14 @@ export default function BlogPage({posts}) {
       <h1 className="text-4xl text-center text-bold bg-primary m-50 py-10">
         Blog Landing Page
       </h1>
-      <ul>
+      <ul className='text-center'>
         {posts.map((post) => (
-          <li key={post._id}>{post.body}</li>
+          <li key={post._id}>{post.title}
+					<br></br>
+					{post.body}</li>
+				
         ))}
-      </ul>
+			</ul>
     </>
   );
 }
