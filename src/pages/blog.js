@@ -10,7 +10,7 @@ export default function BlogPage({posts}) {
       </h1>
       <ul className='text-center'>
         {posts.map((post) => (
-          <li className="bg-secondary mt-5 hover:bg-secondary_hover" key={post._id}><h2 className='text-3xl'>{post.title}</h2>
+          <li className="bg-secondary mt-5 ml-32 hover:bg-secondary_hover" key={post._id}><h2 className='text-3xl'>{post.title}</h2>
 					<br></br>
 					{post.body}</li>
 				
@@ -28,11 +28,4 @@ export async function getStaticProps() {
       posts: blogPosts,
     },
   };
-}
-
-
-const createPostComponent = () => {
-	return (
-		<p>List of posts will live in here and get created in here</p>
-	)
 }
