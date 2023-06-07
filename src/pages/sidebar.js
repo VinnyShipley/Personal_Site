@@ -8,12 +8,12 @@ const SideBar = () => {
 	return (
 		<div
 			id='sidebar'
-			className='fixed top-0 left-0 h-screen w-16 flex flex-col bg-secondary text-amber-100 shadow-xl'
+			className='fixed top-0 left-0 h-screen w-32 flex flex-col bg-secondary text-amber-100 shadow-xl'
 		> 
-      <SideBarIcon icon={<HiHome size="28" />} text='Homepage' href="/"/>
-			<SideBarIcon icon={<GoOctoface size='28' />} text='My Projects' href="/projects"/>
-			<SideBarIcon icon={<TbBrandBlogger size='28' />} text='My Blog' href="/blog"/>
-			<SideBarIcon icon={ <RiLinkedinBoxFill size='28'/>} text='My Linkedin' href="https://www.linkedin.com/in/vinny-shipley/" />
+      <SideBarIcon icon={<HiHome size="56" />} text='Homepage' href="/"/>
+			<SideBarIcon icon={<GoOctoface size='56' />} text='My Projects' href="/projects"/>
+			<SideBarIcon icon={<TbBrandBlogger size='56' />} text='My Blog' href="/blog"/>
+			<SideBarIcon icon={ <RiLinkedinBoxFill size='56'/>} text='My Linkedin' href="https://www.linkedin.com/in/vinny-shipley/" />
 		</div>
 	);
 };

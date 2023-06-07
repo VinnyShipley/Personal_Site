@@ -16,6 +16,7 @@ module.exports = {
       colors: {
         primary: "#92400e",
         secondary: "#ca8a04",
+        secondary_hover: "#fcd34d",
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
