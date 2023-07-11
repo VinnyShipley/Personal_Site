@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Header from './header';
 import SideBar from './sidebar';
 
@@ -10,9 +9,6 @@ function MainLandingPage() {
 					<Header />
 					<SideBar />
 				</div>
-					
-				
-
 			</main>
 		</>
 	);

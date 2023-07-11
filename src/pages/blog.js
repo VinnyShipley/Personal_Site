@@ -10,7 +10,7 @@ export default function BlogPage({posts}) {
       </h1>
       <ul className='text-center'>
         {posts.map((post) => (
-          <li className="bg-secondary mt-5 ml-32 hover:bg-secondary_hover" key={post._id}><h2 className='text-3xl'>{post.title}</h2>
+          <li className="bg-secondary mt-5 ml-32 rounded-3xl hover:bg-secondary_hover transition-colors" key={post._id}><h2 className='text-3xl'>{post.title}</h2>
 					<br></br>
 					{post.body}</li>
 				

@@ -1,4 +1,6 @@
 import SideBar from './sidebar';
+import { Collapse, initTE } from "tw-elements";
+initTE({ Collapse });
 
 const ProjectsLandingPage = () => {
   return (
