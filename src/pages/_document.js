@@ -5,9 +5,10 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head />
-        <body>
+        <body className='bg-primary'>
           <Main />
           <NextScript />
+          <h1 className='flex justify-center pt-4'>Welcome</h1>
         </body>
       </Html>
     );
