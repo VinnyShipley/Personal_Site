@@ -1,17 +1,18 @@
 import Image from "next/image"
-import bannerImage from "src/assets/philip-oroni-YHF1agMTOSs-unsplash.jpg"
+import bannerImage from "../assets/philip-oroni-YHF1agMTOSs-unsplash.jpg"
 
 
 function HeaderImage() {
   return (
-    <div className='pl-44 object-fill'>
+    <div className='pl-80 bg-header_black'>
     <Image
       src={bannerImage}
-      width={1200}
-      height={45}
+      width={2000}
+      height={50}
       alt="Banner picture of soft green geometry"
       />
     </div>
+
   );
 };
 

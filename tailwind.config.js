@@ -18,6 +18,7 @@ module.exports = {
         basic: "#fb923c",
         accent: "#fdba74",
         secondary_hover: "#fcd34d",
+        header_black: "#050b04"
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
