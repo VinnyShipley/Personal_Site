@@ -1,5 +1,5 @@
-import Header from './header';
-import SideBar from './sidebar';
+import Header from '../components/header';
+import SideBar from '../components/sidebar';
 
 function MainLandingPage() {
 	return (

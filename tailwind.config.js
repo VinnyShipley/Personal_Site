@@ -16,7 +16,7 @@ module.exports = {
     extend: {
       colors: {
         basic: "#fb923c",
-        accent: "#a21caf",
+        accent: "#fdba74",
         secondary_hover: "#fcd34d",
       },
       backgroundImage: {
