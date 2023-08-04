@@ -1,4 +1,4 @@
-import SideBar from './sidebar';
+import  SideBar  from './sidebar';
 import { getBlogPosts } from '../../lib/mongo/movies';
 
 export default function BlogPage({posts}) {
