@@ -1,9 +1,11 @@
 import  SideBar  from '../components/sidebar';
 import { getBlogPosts } from '../../lib/mongo/movies';
+import HeaderImage from '@/components/headerimage';
 
 export default function BlogPage({posts}) {
   return (
     <>
+      <HeaderImage />
       <SideBar />
       <h1 className="text-4xl text-center text-bold bg-primary m-50 py-10">
         Blog Landing Page
