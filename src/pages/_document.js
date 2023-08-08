@@ -8,7 +8,6 @@ class MyDocument extends Document {
         <body className='bg-primary'>
           <Main />
           <NextScript />
-          <h1 className='flex justify-center pt-4'>Welcome</h1>
         </body>
       </Html>
     );

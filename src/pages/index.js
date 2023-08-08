@@ -13,6 +13,7 @@ function MainLandingPage() {
 						</h1>
 					</div>
 					<SideBar />
+					<h1 className='flex justify-center pt-4'>Welcome</h1>
 				</div>
 			</main>
 		</>
