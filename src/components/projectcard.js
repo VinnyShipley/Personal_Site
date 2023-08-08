@@ -5,12 +5,12 @@ const projectArray = [
 const ProjectCard = () => (
   <div className="flex justify-center">
     {projectArray.map((item) => (
-      <div className="bg-accent" key={item.title}>
+      <div className="bg-accent rounded-lg py-8 mt-12" key={item.title}>
         <p className="flex justify-center">{item.title}</p>
         <br/>
-        <p className="flex justify-center">{item.description}</p>
+        <p className="flex justify-center px-4">{item.description}</p>
         <br/>
-        <a className="flex justify-center" href={item.link}>Click here to view it</a>
+        <a className="flex justify-center underline" href={item.link}>Click here to view the Github repository</a>
       </div>
     ))}
   </div>

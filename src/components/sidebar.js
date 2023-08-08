@@ -15,7 +15,7 @@ const SideBar = () => {
 
 			<SideBarIcon icon={ <HiCode size='56'/>} text='My Portfolio' href="/projects"/>
 
-			<SideBarIcon icon={<TbBrandBlogger size='56' />} text='The Blog' href="/blog"/>
+			{/* <SideBarIcon icon={<TbBrandBlogger size='56' />} text='The Blog' href="/blog"/> */}
 
 			<SideBarIcon icon={<GoOctoface size='56' />} text='My Github' href="https://github.com/VinnyShipley"/>
 
