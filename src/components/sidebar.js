@@ -9,7 +9,7 @@ const SideBar = () => {
 	return (
 		<div
 			id='sidebar'
-			className='fixed bg-basic top-0 left-0 h-screen w-44 flex flex-col text-amber-100 shadow-xl'
+			className='fixed bg-basic top-0 left-0 h-screen w-36 flex flex-col text-amber-100 shadow-xl'
 		> 
       <SideBarIcon icon={<HiHome size="56" />} text='Homepage' href="/"/>
 
