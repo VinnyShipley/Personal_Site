@@ -14,9 +14,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        
+      },
       colors: {
-        basic: "#fb923c",
-        accent: "#fdba74",
+        basic: "rgb(21 94 117)",
+        accent: "rgb(20 184 166)",
         secondary_hover: "#fcd34d",
         header_black: "#050b04"
       },

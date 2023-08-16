@@ -1,17 +1,20 @@
 import React from 'react';
 import '@/styles/globals.css';
-import { useEffect } from 'react';
-import "tw-elements/dist/css/tw-elements.min.css";
+import 'tw-elements/dist/css/tw-elements.min.css';
+import { Cabin } from '@next/font/google'
+
+const cabin = Cabin({
+	subsets: ['latin'],
+	weight: '400',
+  variable: '--font-cabin'
+});
 
 const MainSite = ({ Component, pageProps }) => {
-  useEffect(() => {
-    const use = async () => {
-      (await import('tw-elements')).default;
-    };
-    use();
-  }, []);
-
-  return <Component {...pageProps} />;
-}
+	return (
+		<main className={cabin.className}>
+			<Component {...pageProps} />
+		</main>
+	);
+};
 
 export default MainSite;
