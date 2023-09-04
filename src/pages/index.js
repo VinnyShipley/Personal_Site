@@ -11,7 +11,7 @@ function MainLandingPage() {
 						</h1>
 					</div>
 					<SideBar />
-					<div id='home-about' className='space-y-14'>
+					<div id='home-about' className='space-y-14 pl-40'>
 						<h2 className='flex justify-center text-3xl  font-bold mt-14'>
 							About
 						</h2>
