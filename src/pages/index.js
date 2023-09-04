@@ -19,7 +19,7 @@ function MainLandingPage() {
 							Based in the Pacific Northwest, Vinny Shipley is a bartender turned software engineer looking to break into the professional tech sphere.
 						</p>
 						<p className='flex justify-center text-2xl'>When not coding, he enjoys getting through the Dune book series and hanging out with his dog Finnegan.</p>
-						<p className='flex justify-center text-2xl'>The kid has got moxy, so hire him why don't ya?</p>
+						<p className='flex justify-center text-2xl'>The kid has got moxy, so hire him why don&apos;t ya?</p>
 					</div>
 				</div>
 			</main>
