@@ -14,7 +14,7 @@ const projectArray = [
 const ProjectCard = () => (
   <div className="mt-16">
     {projectArray.map((item) => (
-      <div className="bg-accent rounded-lg py-8 mt-12 text-2xl" key={item.title}>
+      <div className="max-w-5xl mx-auto bg-accent rounded-lg py-8 mt-20 text-2xl" key={item.title}>
         <p className="flex justify-center">{item.title}</p>
         <br/>
         <p className="flex justify-center px-4">{item.description}</p>
