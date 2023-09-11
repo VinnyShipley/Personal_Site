@@ -3,10 +3,16 @@ const projectArray = [
   description: 'A budget calculator to figure out a fair split of finances between multiple people with different incomes and any number of expenses', 
   link: 'https://github.com/VinnyShipley/Budget-App', 
   techs: 'Pyton, Django',
+  },
+  {
+    title: 'Personal Website',
+    description: 'The website that you are looking at right now',
+    link: 'https://github.com/VinnyShipley/Personal_Site',
+    techs: 'Next.js, TailwindCSS',
   }];
 
 const ProjectCard = () => (
-  <div className="flex justify-center mt-16">
+  <div className="mt-16">
     {projectArray.map((item) => (
       <div className="bg-accent rounded-lg py-8 mt-12 text-2xl" key={item.title}>
         <p className="flex justify-center">{item.title}</p>
