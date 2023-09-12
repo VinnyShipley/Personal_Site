@@ -8,7 +8,7 @@ const projectArray = [
     title: 'Personal Website',
     description: 'The website that you are looking at right now',
     link: 'https://github.com/VinnyShipley/Personal_Site',
-    techs: 'Next.js, TailwindCSS',
+    techs: 'Next.js, TailwindCSS, PostgreSQL',
   }];
 
 const ProjectCard = () => (
