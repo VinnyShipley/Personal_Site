@@ -2,7 +2,7 @@ const projectArray = [
   {title: 'Budget App', 
   description: 'A budget calculator to figure out a fair split of finances between multiple people with different incomes and any number of expenses', 
   link: 'https://github.com/VinnyShipley/Budget-App', 
-  techs: 'Pyton, Django',
+  techs: 'Pyton, Django, Bootstrap 5',
   },
   {
     title: 'Personal Website',
